@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDS   = credentials('Docker_Hub_Id_Pwd')
+        DOCKER_CREDS   = credentials('Deepak_DockerHub_23Sep')
         IMAGE_NAME     = "notes-app"
         IMAGE_TAG      = "v1.${BUILD_NUMBER}"
         CONTAINER_NAME = "notes-app-container"
