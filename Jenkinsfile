@@ -54,7 +54,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 sh '''
-                    echo "===== Running New Container waaaaaaaaaa ====="
+                    echo "===== Running New Container waa ====="
                     docker run -d --name ${CONTAINER_NAME} -p ${PORT}:80 -v notes-data:/data ${DOCKER_CREDS_USR}/${IMAGE_NAME}:${IMAGE_TAG}
                 '''
             }
