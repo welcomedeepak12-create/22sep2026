@@ -29,7 +29,7 @@ pipeline {
         stage('Tag & Push Image') {
             steps {
                 sh '''
-                    echo "===== Logging in to Docker Hub ====="
+                    echo "===== Logginggg in to Docker Hub ====="
                     echo "$DOCKER_CREDS_PSW" | docker login -u "$DOCKER_CREDS_USR" --password-stdin
 
                     echo "===== Tagging Image ====="
