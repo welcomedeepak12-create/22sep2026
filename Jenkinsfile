@@ -20,7 +20,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 sh '''
-                    echo "===== Building Docker Image ====="
+                    echo "===== Buildiing Docker Image ====="
                     docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
                 '''
             }
