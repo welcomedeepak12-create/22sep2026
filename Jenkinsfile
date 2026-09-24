@@ -7,7 +7,7 @@ pipeline {
         IMAGE_TAG      = "v1.${BUILD_NUMBER}"
         CONTAINER_NAME = "notes-app-container"
         PORT           = "9092"
-        HOST_IP        = "15.252.157.141"
+        HOST_IP        = "13.203.154.42"
     }
 
     stages {
