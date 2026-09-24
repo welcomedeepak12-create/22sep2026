@@ -76,7 +76,7 @@ pipeline {
             echo "===== Deployment Successful: http://${HOST_IP}:${PORT} ====="
             emailext(
                 subject: "Build Successful",
-                body: "Build was Successful - Congrats!(puraaaaa rydddddd taa auuuuuuuuuu)",
+                body: "Build was Successful - Congrats!(puraaaaa rydddddd taa auuuuuuuuuuuuuuu)",
                 to: "welcomedeepak12@gmail.com"
             )
         }
